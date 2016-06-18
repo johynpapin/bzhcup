@@ -1,0 +1,71 @@
+<template name="registerTeamModal">
+    <div class="modal fade" id="registerTeamModal" tabindex="-1" role="dialog" aria-labelledby="registerTeamModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="registerTeamModalLabel">Inscrire une équipe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Ce formulaire vous permettra de créer une équipe League of Legends dans le cadre de la
+                        LAN 7.0.<br>
+                        Si les informations entrées sont <b>invalides</b>, cette inscription pourra être <b>refusée</b>.
+                    </p>
+                    <hr>
+                    <fieldset class="form-group {{teamnamef}}">
+                        <input required type="text" class="r-i form-control {{teamnamei}}" id="rt-tname"
+                               placeholder="Nom de l’équipe">
+                    </fieldset>
+                    <fieldset class="form-group {{teamemailf}}">
+                        <input required type="email" class="r-i form-control {{teamemaili}}" id="rt-temail"
+                               placeholder="Email de l’équipe">
+                    </fieldset>
+                    <hr>
+                    <fieldset class="form-group">
+                        <label class="c-input c-checkbox">
+                            <input id="rt-private" type="checkbox" checked>
+                            <span class="c-indicator"></span>
+                            Cette équipe est privée.
+                        </label>
+                    </fieldset>
+                    <div id="publicTeam">
+                        <p><b>Équipe publique :</b> n’importe quel participant pourra rejoindre cette équipe.</p>
+                    </div>
+                    <div id="privateTeam">
+                        <p><b>Équipe privée :</b> une clé vous sera communiquée après l’inscription.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button id="r-registerTeam" type="button" class="btn btn-primary">Créer une équipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="inviteModal" tabindex="-1" role="dialog" aria-labelledby="inviteModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="inviteModalLabel">Clé privée de l’équipe</h4>
+                </div>
+                <div class="modal-body">
+                    <p>La clé privée de votre équipe est <kbd>{{teamKey}}</kbd>. Donnez-la à vos coéquipiers afin qu’ils puissent rejoindre votre équipe.</p>
+                    <p>Vos coéquipiers devront pour commencer s’inscrire en utilisant le formulaire de <a href="{{pathFor 'homePage'}}">la page d’accueil</a> en indiquant vouloir participer au tournoi League of Legends.</p>
+                    <p>Une fois cela fait, ils devront se rendre sur la liste des équipes et rejoindre votre équipe en utilisant la clé privée.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button id="r-registerTeam" type="button" class="btn btn-primary">Créer une équipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

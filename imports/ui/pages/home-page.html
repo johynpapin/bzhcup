@@ -1,0 +1,16 @@
+<template name="homePage">
+    <h5>Samedi 25 Juin...</h5>
+    <h1 class="cover-heading display-1">LAN 7.0</h1>
+    <h1><span class="rotate">League of Legends, TrackMania, FIFA, FPS</span></h1><br><br>
+    <div class="btn-group" role="group" aria-label="En savoir plus ou s’inscrire">
+        <a href="{{pathFor 'aboutPage'}}" class="btn btn-lg btn-secondary">En savoir plus</a>
+        {{#if currentUser}}
+            <a href="{{pathFor 'registerPage'}}" class="btn btn-lg btn-primary">S’inscrire au tournoi League of Legends</a>
+        {{else}}
+            <button class="btn btn-lg btn-primary" data-toggle="modal" data-target="#registerModal">S’inscrire</button>
+            <button class="btn btn-lg btn-secondary" data-toggle="modal" data-target="#loginModal">Se connecter</button>
+        {{/if}}
+    </div>
+    {{> registerModal}}
+    {{> loginModal}}
+</template>

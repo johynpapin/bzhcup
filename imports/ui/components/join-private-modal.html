@@ -1,0 +1,28 @@
+<template name="joinPrivateModal">
+    <div class="modal fade" id="joinPrivateModal" tabindex="-1" role="dialog" aria-labelledby="joinPrivateModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="joinPrivateModalLabel">Rejoindre une équipe privée</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Afin de rejoindre cette équipe, vous devez posséder la clé privée de celle-ci. Elle est de la forme
+                        suivante : <kbd>AFtYkFecavcTT5PSM</kbd>.</p>
+                    <hr>
+                    <fieldset class="form-group {{pkf}}">
+                        <input required type="text" class="form-control l-i {{pki}}" id="private-key"
+                               placeholder="Clé privée de l’équipe">
+                    </fieldset>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button id="l-submit" type="button" class="btn btn-primary">Rejoindre l’équipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

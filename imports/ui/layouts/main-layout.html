@@ -1,0 +1,44 @@
+<template name="mainLayout">
+    <div class="site-wrapper">
+        <video loop muted autoplay poster="cover-bg.jpg">
+            <source src="video-bg.mp4" type="video/mp4">
+            <source src="video-bg.webm" type="video/webm"/>
+        </video>
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">LAN 7.0</h3>
+                        <nav class="nav nav-masthead">
+                            <a class="nav-link {{isActiveRoute 'homePage'}}" href="{{pathFor 'homePage'}}">Accueil</a>
+                            <a class="nav-link {{isActiveRoute 'aboutPage'}}" href="{{pathFor 'aboutPage'}}">À
+                                propos</a>
+                            <a class="nav-link {{isActiveRoute 'registerPage'}}" href="{{pathFor 'registerPage'}}">Les
+                                équipes</a>
+                            <a class="nav-link {{isActiveRoute 'contactPage'}}" href="{{pathFor 'contactPage'}}">Nous
+                                contacter</a>
+                            {{#if currentUser}}
+                                <a class="nav-link {{isActiveRoute 'accountPage'}}" href="{{pathFor 'accountPage'}}">Mon
+                                    compte</a>
+                            {{/if}}
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="inner cover center-block">
+                    {{>Template.dynamic template=content}}
+                </div>
+
+                <div class="mastfoot">
+                    <div class="inner">
+                        <p>Un site réalisé par <a href="https://twitter.com/JohynPapin">@JohynPapin</a>.<a
+                                href="https://www.toornament.com/tournaments/574175ef150ba0d0458b4572/"><img
+                                id="poweredByToornament" src="poweredByToornament-light.png"></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{> cookieConsent}}
+    {{> sAlert}}
+</template>

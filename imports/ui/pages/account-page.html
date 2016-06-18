@@ -1,0 +1,28 @@
+<template name="accountPage">
+    <h1 class="cover-heading">Mon compte</h1><br>
+    <p class="lead">
+        Vous êtes actuellement connecté en tant que <b>{{fullName}}</b>.
+    </p>
+    {{#if registeredForLol}}
+        {{#if inATeam}}
+            <p class="lead">
+                Vous êtes bien enregistré pour le grand tournoi sur League of Legends.
+            </p>
+        {{else}}
+            <p class="lead">
+                Vous n’avez pas encore d’équipe pour le grand tournoi sur League of Legends.
+            </p>
+            <a href="{{pathFor 'registerPage'}}" class="btn btn-lg btn-primary">Rejoindre ou créer une équipe
+                League of Legends</a><br><br>
+        {{/if}}
+    {{else}}
+        <p class="lead">
+            Vous n’êtes pas enregistré pour le grand tournoi sur League of Legends.
+        </p>
+    {{/if}}
+    <div class="btn-group" role="group" aria-label="En savoir plus ou s’inscrire">
+        <button id="editAccount" class="btn btn-lg btn-secondary">Modifier mon compte</button>
+        <button id="logout" class="btn btn-lg btn-secondary">Me déconnecter</button>
+        <button id="removeAccount" class="btn btn-lg btn-danger">Annuler mon inscription</button>
+    </div>
+</template>

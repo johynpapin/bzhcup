@@ -1,0 +1,133 @@
+<template name="registerModal">
+
+    <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="registerModalLabel">Inscription à la LAN 7.0</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <p>Cette inscription vous permettra de participer à la LAN 7.0.<br>
+                            Si les informations entrées sont <b>invalides</b>, votre inscription pourra être
+                            <b>refusée</b>.
+                        </p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><b>Attention :</b> certaines de ces informations seront publiques.</p>
+                                <fieldset class="form-group {{nicknamef}}">
+                                    <label for="r-nickname">Pseudonyme</label>
+                                    <input required type="text" class="r-i form-control {{nicknamei}}" id="r-nickname"
+                                           placeholder="Pseudonyme">
+                                </fieldset>
+                                <fieldset class="form-group {{emailf}}">
+                                    <label for="r-email">Adresse email</label>
+                                    <input required type="email" class="r-i form-control {{emaili}}" id="r-email"
+                                           placeholder="Email">
+                                </fieldset>
+                                <fieldset class="form-group {{passwordf}}">
+                                    <label for="r-password">Mot de passe</label>
+                                    <input required type="password" class="r-i form-control {{passwordi}}"
+                                           id="r-password"
+                                           placeholder="Mot de passe">
+                                </fieldset>
+                                <fieldset class="form-group {{passwordf}}">
+                                    <label for="r-password-2">Répétez votre mot de passe</label>
+                                    <input required type="password" class="r-i form-control {{passwordi}}"
+                                           id="r-password-2"
+                                           placeholder="Répétez votre mot de passe">
+                                </fieldset>
+                                <fieldset class="form-group {{namef}}">
+                                    <label for="r-name">Prénom</label>
+                                    <input required type="text" class="r-i form-control {{namei}}" id="r-name"
+                                           placeholder="Prénom">
+                                </fieldset>
+                                <fieldset class="form-group {{lastnamef}}">
+                                    <label for="r-lastname">Nom</label>
+                                    <input required type="text" class="r-i form-control {{lastnamei}}" id="r-lastname"
+                                           placeholder="Nom">
+                                </fieldset>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Je désire participer aux tournois suivants :</p>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-lol" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        League of Legends
+                                    </label>
+                                </fieldset>
+                                <div id="lol-warning">
+                                    <fieldset class="form-group {{summonernamef}}">
+                                        <input required type="text" class="r-i form-control {{summonernamei}}"
+                                               id="r-summonername"
+                                               placeholder="Nom d’invocateur">
+                                    </fieldset>
+                                    <p><b>Attention :</b> pour finaliser votre inscription à ce tournoi, vous
+                                        devrez rejoindre ou créer une équipe sur la page prévue à cet effet.</p>
+
+                                </div>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-tm" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        TrackMania
+                                    </label>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-fifa" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        FIFA (console)
+                                    </label>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-fps" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        FPS (pas encore définie)
+                                    </label>
+                                </fieldset>
+                                <hr>
+                                <p>Ces trois dernières questions sont facultatives.</p>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-kebab" type="checkbox" checked>
+                                        <span class="c-indicator"></span>
+                                        Je désire bénéficier d’une réduction au <strong>Kébab d’Or</strong>.
+                                    </label>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-wires" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        J’emporterais des : câbles réseaux et/ou des multiprises.
+                                    </label>
+                                </fieldset>
+                                <fieldset class="form-group">
+                                    <label class="c-input c-checkbox">
+                                        <input id="r-fifa-c" type="checkbox">
+                                        <span class="c-indicator"></span>
+                                        J’emporterais : une console compatible avec FIFA et/ou un jeu FIFA.
+                                    </label>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <hr>
+                        <p>En validant ce formulaire, vous certifiez que les informations renseignées sont valides, et
+                            vous acceptez nos <a>Conditions Générales d'Utilisation (CGU)</a>.</p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button id="r-register" type="button" class="btn btn-primary">M’inscrire</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

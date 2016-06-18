@@ -1,0 +1,10 @@
+<template name="teamViewPage">
+    <h1 class="cover-heading">{{team.name}}</h1>
+    <p class="lead">
+        {{#if team.isPrivate}}
+            Cette équipe est privée.
+        {{else}}
+            Cette équipe est publique.
+        {{/if}}
+    </p>
+</template>

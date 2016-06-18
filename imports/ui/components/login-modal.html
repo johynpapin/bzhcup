@@ -1,0 +1,31 @@
+<template name="loginModal">
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="loginModalLabel">Connexion</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Remplissez ce formulaire afin de vous connecter.</p>
+                    <form>
+                        <hr>
+                        <fieldset class="form-group {{loginf}}">
+                            <input required type="text" class="form-control l-i {{logini}}" id="l-login" placeholder="Pseudonyme ou email">
+                        </fieldset>
+                        <fieldset class="form-group {{passwordf}}">
+                            <input required type="password" class="form-control l-i {{passwordi}}" id="l-password" placeholder="Mot de passe">
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
+                    <button id="l-submit" type="button" class="btn btn-primary">Me connecter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,26 @@
+<template name="team">
+    <div class="card card-inverse team">
+        <div class="card-block">
+            <h3 class="card-title">{{name}}</h3>
+            <p class="card-text">{{players}}<br>{{#if isPrivate}}Cette équipe est privée.{{else}}Cette équipe est
+                publique.{{/if}}</p>
+            <div class="btn-group" role="group" aria-label="Action ou information">
+                {{#if joined}}
+                    <button id="leaveTeam" class="btn btn-danger">Quitter l’équipe</button>
+                {{else}}
+                    {{#if full}}
+                        <button disabled class="btn btn-danger disabled">Équipe pleine</button>
+                    {{else}}
+                        {{#if isPrivate}}
+                            <button class="btn btn-warning" data-toggle="modal" data-target="#joinPrivateModal">Rejoindre l’équipe</button>
+                        {{else}}
+                            <button id="joinTeam" class="btn btn-primary">Rejoindre l’équipe</button>
+                        {{/if}}
+                    {{/if}}
+                {{/if}}
+                <a href="{{pathFor 'teamViewPage' teamName=name}}" class="btn btn-secondary">Page de l’équipe</a>
+            </div>
+        </div>
+    </div>
+    {{> joinPrivateModal}}
+</template>
