@@ -1,9 +1,9 @@
 import {Template} from "meteor/templating";
-
+/*
 import "../components/register-team-modal.js";
-import "../components/register-lol-modal.js";
+import "../components/register-lol-modal.js";*/
 import "./register-page.html";
-
+/*
 Template.registerPage.rendered = () => {
     if(Meteor.user()) {
         if (Meteor.user().profile.tournaments.lol.registered === false) {
@@ -20,4 +20,4 @@ Template.registerPage.helpers({
         else
             return cursor;
     }
-});
+});*/

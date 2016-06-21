@@ -1,6 +1,6 @@
 <template name="mainLayout">
     <div class="site-wrapper">
-        <video loop muted autoplay poster="cover-bg.jpg">
+        <video id="video-bg" loop autoplay poster="cover-bg.jpg">
             <source src="video-bg.mp4" type="video/mp4">
             <source src="video-bg.webm" type="video/webm"/>
         </video>
@@ -8,7 +8,7 @@
             <div class="cover-container">
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">LAN 7.0</h3>
+                        <h3 class="masthead-brand">LAN 7.0&nbsp;&nbsp;<i id="volume" class="fa {{#if off}}fa-volume-off{{else}}fa-volume-up{{/if}}" aria-hidden="true"></i></h3>
                         <nav class="nav nav-masthead">
                             <a class="nav-link {{isActiveRoute 'homePage'}}" href="{{pathFor 'homePage'}}">Accueil</a>
                             <a class="nav-link {{isActiveRoute 'aboutPage'}}" href="{{pathFor 'aboutPage'}}">À

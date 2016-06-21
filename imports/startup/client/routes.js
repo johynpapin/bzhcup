@@ -58,8 +58,7 @@ teamsGroup.route('/', {
         BlazeLayout.render("mainLayout", {content: "registerPage"});
     }
 });
-
-teamsGroup.route('/:teamName', {
+/*teamsGroup.route('/:teamName', {
     subscriptions() {
         this.register('teams', Meteor.subscribe('teams'));
     },
@@ -67,7 +66,7 @@ teamsGroup.route('/:teamName', {
     action() {
         BlazeLayout.render("mainLayout", {content: "teamViewPage"});
     }
-});
+});*/
 
 FlowRouter.route('/account', {
 

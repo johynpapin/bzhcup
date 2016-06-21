@@ -20,6 +20,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/arillo_flow-router-helpers/0.5.1/web.browser/client/helpers.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fortawesome_fontawesome/4.5.0/web.browser/upstream/css/font-awesome.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.8/web.browser/babel-runtime.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/mongo-id/1.0.4/web.browser/id.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.8/web.browser/base64.js" />
@@ -248,6 +249,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/arillo_flow-router-helpers/0.5.1/web.browser/client/helpers.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fortawesome_fontawesome/4.5.0/web.browser/upstream/css/font-awesome.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/babel-runtime/0.1.8/web.browser/babel-runtime.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/mongo-id/1.0.4/web.browser/id.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/base64/1.0.8/web.browser/base64.js" />
