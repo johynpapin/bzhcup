@@ -69,7 +69,6 @@ teamsGroup.route('/', {
 });*/
 
 FlowRouter.route('/account', {
-
     name: 'accountPage',
     action() {
         BlazeLayout.render("mainLayout", {content: "accountPage"});
