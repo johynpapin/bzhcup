@@ -18,6 +18,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/ongoworks_spiderable/1.0.7/web.browser/packages/ongoworks_spiderable.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/arillo_flow-router-helpers/0.5.1/web.browser/client/helpers.coffee" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/fortawesome_fontawesome/4.5.0/web.browser/upstream/css/font-awesome.css" />
@@ -247,6 +248,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/.npm/package/node_modules/install/install.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/ongoworks_spiderable/1.0.7/web.browser/packages/ongoworks_spiderable.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/arillo_flow-router-helpers/0.5.1/web.browser/client/helpers.coffee" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/zimme_active-route/2.3.2/web.browser/packages/zimme_active-route.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/fortawesome_fontawesome/4.5.0/web.browser/upstream/css/font-awesome.css" />

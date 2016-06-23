@@ -23,6 +23,7 @@ callback-hook@1.0.8
 check@1.2.1
 chuangbo:cookie@1.1.0
 coffeescript@1.0.17
+coursierprive:tether@1.1.1
 ddp@1.2.5
 ddp-client@1.2.7
 ddp-common@1.2.5
@@ -70,6 +71,7 @@ msavin:mongol@2.0.1
 npm-bcrypt@0.8.6_1
 npm-mongo@1.4.43
 observe-sequence@1.0.11
+ongoworks:spiderable@1.0.7
 ordered-dict@1.0.7
 promise@0.6.7
 raix:eventemitter@0.1.3
