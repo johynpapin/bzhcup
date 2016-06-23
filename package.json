@@ -1,0 +1,18 @@
+{
+  "name": "bzhcup",
+  "version": "1.0.0",
+  "description": "BZH CUP’s",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johynpapin/bzhcup.git"
+  },
+  "author": "Papin Johyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johynpapin/bzhcup/issues"
+  },
+  "homepage": "https://github.com/johynpapin/bzhcup#readme",
+  "dependencies": {
+    "tether": "^1.3.2"
+  }
+}
