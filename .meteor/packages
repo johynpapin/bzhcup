@@ -22,6 +22,7 @@ kadira:flow-router
 kadira:blaze-layout
 arillo:flow-router-helpers
 zimme:active-route
+ongoworks:spiderable
 
 # UI
 twbs:bootstrap@=4.0.0-alpha.2
