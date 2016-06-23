@@ -11,9 +11,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/process.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/client.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/4.0.0-alpha.2/web.browser/dist/js/bootstrap.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/css.js" />
-        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/4.0.0-alpha.2/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/server.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
@@ -83,6 +81,7 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/lib/privateAPI.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/style/toykit.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/client/main.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_tether/1.1.1/web.browser/dist/js/tether.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/lib/common.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/style/Mongol.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/client/main.js" />
@@ -183,6 +182,8 @@
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/utils.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/charref.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/parse.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_bootstrap4-flex/4.0.0-alpha.2/web.browser/dist/js/bootstrap.js" />
+        <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_bootstrap4-flex/4.0.0-alpha.2/web.browser/dist/css/bootstrap.css" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/html.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/visitors.js" />
         <item url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/preamble.js" />
@@ -241,9 +242,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/process.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/stubs.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/client.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/4.0.0-alpha.2/web.browser/dist/js/bootstrap.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/css.js" />
-      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/twbs_bootstrap/4.0.0-alpha.2/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/buffer.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules/0.6.1/web.browser/server.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/modules-runtime/0.6.3/web.browser/modules-runtime.js" />
@@ -313,6 +312,7 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/lib/privateAPI.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/style/toykit.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/meteortoys_toykit/3.0.4/web.browser/client/main.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_tether/1.1.1/web.browser/dist/js/tether.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/lib/common.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/style/Mongol.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/msavin_mongol/2.0.1/web.browser/client/main.js" />
@@ -413,6 +413,8 @@
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/utils.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/charref.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/html-tools/1.0.9/web.browser/parse.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_bootstrap4-flex/4.0.0-alpha.2/web.browser/dist/js/bootstrap.js" />
+      <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/coursierprive_bootstrap4-flex/4.0.0-alpha.2/web.browser/dist/css/bootstrap.css" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/html.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/visitors.js" />
       <root url="file://$USER_HOME$/AppData/Local/.meteor/packages/htmljs/1.0.9/web.browser/preamble.js" />

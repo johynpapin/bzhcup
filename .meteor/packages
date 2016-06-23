@@ -25,7 +25,9 @@ zimme:active-route
 ongoworks:spiderable
 
 # UI
-twbs:bootstrap@=4.0.0-alpha.2
+#twbs:bootstrap@=4.0.0-alpha.2
+coursierprive:tether
+coursierprive:bootstrap4-flex
 less
 juliancwirko:s-alert
 juliancwirko:s-alert-slide
